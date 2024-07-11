@@ -1,10 +1,23 @@
+---
+title: Navigation 
+Metadata can be used for tracking
+author:
+date created:
+date approved:
+
+---
+
+# The Top Menus
+
+In the "material" theme, the top menus are determined by settings in the "mkdocs.ylm" configuration file.
+
+``` py
 site_name: Smile4yourself Testing Web
 theme:
   name: material # or redthedocs
   features:
-    - navigation.tabs  # Render top sections as tabs at the top.
-    - navigation.top  # Adds a "Back to top" that is shown when scrolling up.
-    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
     - search.suggest
     - seach.highlight
     - content.tabs.link
@@ -43,3 +56,5 @@ nav:
 extra_css:
     - css/custom.css
     
+
+```
