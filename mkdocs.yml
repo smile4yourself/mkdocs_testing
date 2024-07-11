@@ -1,0 +1,45 @@
+site_name: Smile4yourself Testing Web
+theme:
+  name: material # or redthedocs
+  features:
+    - navigation.tabs  # Render top sections as tabs at the top.
+    - navigation.top  # Adds a "Back to top" that is shown when scrolling up.
+    - navigation.tracking
+    - search.suggest
+    - seach.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy  
+
+  language: en
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark made
+    primary: teal
+    accent: purple
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: switch to light mode
+    primary:  teal
+    accent: lime
+
+nav:
+  - Home: index.md
+  - Website:  invoke_web.md
+  - Top Menu: top_menu.md
+  - Docs:
+    - Publication: Process to Publish Docs.md
+    - TomTom: file4.md
+    - Mummy: file45.md
+    - file45: file45.md
+  - Blog: blog.md
+  - Contact: index.md
+  - More: index.md
+  - 8: index.md
+
+extra_css:
+    - css/custom.css
+    
