@@ -1,0 +1,23 @@
+/* Ensure the top navigation menu items wrap to the next line instead of hiding */
+@media (max-width: 1200px) {
+  .md-nav__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .md-nav__item {
+    flex: 1 1 auto;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 10px;
+  }
+}
+
+/* Ensure dropdowns work well in smaller widths */
+@media (max-width: 1200px) {
+  .md-nav__item--dropdown {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
